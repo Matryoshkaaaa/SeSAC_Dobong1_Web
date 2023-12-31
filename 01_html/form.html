@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 구성 태그</title>
+</head>
+<body>
+    <form action="" method="">
+        <label for="">
+            id:<input type="text" placeholder="id를 입력해주세요"/>
+        </label>
+        <br>
+        <label for="pw">
+        password:<input type="password" id="pw"/>
+        </label>
+        <br>
+        email: <input type="email" value="allie">
+        <input type="button" value="로그인">
+        <br>
+        <input type="submit" value="로그인">
+        <button><span style="color: red;">로</span>그인</button>
+        <!-- submit 버튼이랑 버튼태그랑 같다. -->
+
+        <input type="color">
+        <input type="file">
+        <input type="number">
+        <input type="date">
+        <input type="range">
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!-- 여러줄 쓰고 싶을때 -->
+    </form>
+
+    <hr>
+    <h5>다음중 input의 type이 아닌 것은? (모두 고르시오)</h5>
+    <label><input type="checkbox" name="input"> alt </label>
+    <label><input type="checkbox" name="input"> text </label>
+    <label><input type="checkbox" name="input"> img </label>
+    <label><input type="checkbox" name="input"> click </label>
+    <label><input type="checkbox" name="input"> date </label>
+    
+    <h5>다음 중 img 태그의 속성인 것은?</h5>
+    <input type="radio" name="img" id="alt" />
+    <label for="alt">alt</label>
+
+    <input type="radio" name="img" id="bread"/>
+    <label for="alt">bread</label>
+    
+    <input type="radio" name="img" id="href"/>
+    <label for="alt">href</label>
+
+    <input type="radio" name="img" id="mouse" checked/>
+    <label for="alt">mouse</label>
+
+    <input type="radio" name="img" id="dragon" disabled/>
+    <label for="alt">dragon</label>
+
+    <!-- 드롭다운 메뉴 -->
+    <select name="" id="">
+        <optgroup label="빨간꽃">
+            <option value="장미" disabled>장미</option>
+            <option value="동백꽃">동백꽃</option>
+            <option value="튤립">튤립</option>
+        </optgroup>
+        <optgroup label="하얀꽃">
+            <option value="벚꽃">벚꽃</option>
+            <option value="매화">매화</option>
+        </optgroup>
+    </select>
+
+    
+
+    
+</body>
+</html>

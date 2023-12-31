@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>안녕하세요</h1>
+    <h2>안녕하세요</h2>
+    <h3>안녕하세요</h3>
+    <h4>안녕하세요</h4>
+    <h5>안녕하세요</h5>
+    <h6>안녕하세요</h6>
+
+    <!-- 주석 -->
+    <h2>오늘의 일기 </h2>
+    <p>오늘은 날씨가 흐리네요. 연말인데 오늘 뭐하시나요? &nbsp; 
+        <!-- &lt, &gt; 엔티티 코드 -->
+        <br>
+        1월1일은 새싹 휴관날입니다. 
+        <br>
+        수업이 없으니 행복하게 보내세요
+    </p>
+    <h4>오늘의 할일</h4>
+    <!-- ul type : square circle none disc(default) -->
+    <ul type="none">
+        <li>html 복습하기</li>
+        <li>운동하기</li>
+        <li>점심 맛있게 먹기</li>
+
+        
+    </ul>
+
+    <h4>카페라떼 만드는 방법</h4>
+
+    <!-- ol type = 1(default) A , a , I , i -->
+    <ol type="1" reversed start="2">
+        <!-- 리버스 2부터 시작 -->
+        <li><b>우유</b>를 <strong>컵</strong>에 넣습니다</li>
+        <li><i>얼음</i>을 <em>가득</em> 넣습니다</li>
+        <li><del>에스프레소</del> 샷을 넣어주면~</li>
+        <li><u>완성!</u></li>
+    </ol>
+
+    <hr>
+    <h4> 리스트 안에 리스트 넣기</h4>
+    <ul>
+        <h5>내가 좋아하는 음식</h5>
+        <li>양식
+            <ol type="A">
+                <li>돈까스</li>
+                <li>파스타</li>
+            </ol>
+        </li>
+        <li>한식
+            <ol type="1">
+                <li>비빔밥</li>
+                <li>삼겹살</li>
+            </ol>
+        </li>
+        <li>일식
+            <ol type="1">
+                <li>라멘</li>
+                <li>초밥
+                    <ul>
+                        <li>새우초밥</li>
+                        <li>연어초밥</li>
+                        <li>계란초밥</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        
+    </ul>
+    <p></p>
+    <pre></pre>
+
+    <details>
+
+        <summary>제목</summary>
+        <!-- lorem10 : 10글자 -->
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, cupiditate!
+        <ul>
+            <li>아무태그나</li>
+            <li>넣어도 숨겨집니다.</li>
+        </ul>
+
+    </details>
+
+    <hr>
+
+    <h4> a 태그와 img 태그 사용하기</h4>
+    <!-- 안정성을 위해 끝에 / 씀 -->
+
+    <img src="data:image/jpeg;base64,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" 
+            alt="커피 사진" width="300" /> 
+    <br>
+    <hr>
+    <h1>산타할아버지</h1>
+    <!-- 상대경로: 현재위치로 부터 경로를 찾아나가는것 -->
+    <img src="./image/santa.jpg" alt="산타할아버지">
+
+    <br>
+    <a href="http://www.naver.com" target="_blank">네이버로 이동</a>
+     <!-- target 디폴트 값은 _self -->
+     <a href="./html_start.html">html_start 로 이동</a>
+
+     <!-- 간단 학습 -->
+     <!-- 사진을 저장하고, 사진을 눌렀을 때 구글로 이동시키기 -->
+     <a href="http://www.google.com">
+        <img src="" alt="">
+     </a>
+
+     
+
+    
+
+
+</body>
+</html>
