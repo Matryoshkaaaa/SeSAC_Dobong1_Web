@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>색상 변경</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+    }
+
+    div:hover {
+      cursor: pointer;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    .orange {
+      background-color: orange;
+    }
+
+    .yellow {
+      background-color: yellow;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .blue {
+      background-color: blue;
+    }
+
+    .purple {
+      background-color: purple;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple'];
+    let i = 0;
+
+    function changeColor() {
+      i++;
+      if (i === colors.length) {
+        i = 0;
+       
+
+      }
+      $('.red').addClass(colors[i]);
+      console.log(i);
+    }
+
+  </script>
+</head>
+<body>
+  <div class="red" onclick="changeColor();"></div>
+</body>
+</html>
